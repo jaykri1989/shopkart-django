@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'accounts',
     'store',
     'carts',
+    'carts.context_processors.counter',
 ]
 
 MIDDLEWARE = [
