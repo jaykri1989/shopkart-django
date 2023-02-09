@@ -145,3 +145,11 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 
 }
+
+
+# SMTP Configuration
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = '587'
+EMAIL_HOST_USER= 'techie.ntirorld@gmail.com'
+EMAIL_HOST_PASSWORD= 'admin@123456'
+EMAIL_USE_TLS= True
